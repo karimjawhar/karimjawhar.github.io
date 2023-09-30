@@ -177,7 +177,7 @@ footer li {
 
 footer a {
     color: #fff;
-    text-decoration: none;
+    text-decoration: smooth;
     transition: color 0.3s;  /* Smooth transition for hover effect */
 }
 
