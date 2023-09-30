@@ -101,8 +101,8 @@ main h3 {
 }
 
 .service-column {
-    flex-basis: calc(40% - 20px);
-    max-width: calc(40% - 20px);
+    flex-basis: calc(50% - 25px);
+    max-width: calc(50% - 25px);
     display: flex;
     flex-direction: column;
     align-items: center;
