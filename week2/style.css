@@ -146,8 +146,8 @@ main h3 {
     display: inline-oval;
     padding: 10px 20px;
     background-color: #fca503;
-    color: #ffffff;
-    text-decoration: none;
+    color: #d92e2e;
+    text-decoration: hover;
     border-radius: 5px;
     font-weight: bold;
     margin-top: 15px;
