@@ -101,8 +101,8 @@ main h3 {
 }
 
 .service-column {
-    flex-basis: calc(30% - 20px);
-    max-width: calc(30% - 20px);
+    flex-basis: calc(40% - 20px);
+    max-width: calc(40% - 20px);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -122,8 +122,8 @@ main h3 {
 /* Media Queries for Responsiveness */
 @media (max-width: 800px) {
     .service-column {
-        flex-basis: calc(30% - 20px);
-        max-width: calc(30% - 20px);
+        flex-basis: calc(40% - 20px);
+        max-width: calc(40% - 20px);
     }
 }
 
