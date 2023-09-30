@@ -143,7 +143,7 @@ main h3 {
 }
 
 .cta-button {
-    display: inline-block;
+    display: inline-oval;
     padding: 10px 20px;
     background-color: #fca503;
     color: #ffffff;
