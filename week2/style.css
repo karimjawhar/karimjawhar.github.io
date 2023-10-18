@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    color: #138886;
+    color: #020202;
     background: linear-gradient(to right, #138886, #138886);
 }
 
@@ -138,14 +138,14 @@ main h3 {
 .cta-container {
     text-align: center;
     padding: 20px;
-    background-color: #0e024d;
+    background-color: #333;
     margin-top: 30px;
 }
 
 .cta-button {
     display: inline-box;
     padding: 10px 20px;
-    background-color: #0e024d;
+    background-color: #ad0707;
     color: #ad0707;
     text-decoration: hover;
     border-radius: 5px;
