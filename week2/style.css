@@ -138,15 +138,15 @@ main h3 {
 .cta-container {
     text-align: center;
     padding: 20px;
-    background-color: #138886;
+    background-color: #0e024d;
     margin-top: 30px;
 }
 
 .cta-button {
     display: inline-box;
     padding: 10px 20px;
-    background-color: #138886;
-    color: #138886;
+    background-color: #0e024d;
+    color: #ad0707;
     text-decoration: hover;
     border-radius: 5px;
     font-weight: bold;
@@ -155,7 +155,7 @@ main h3 {
 }
 
 .cta-button:hover {
-    background-color: #138886;
+    background-color: #ad0707;
 }
 
 /* Footer Styles */
