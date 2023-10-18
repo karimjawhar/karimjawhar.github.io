@@ -3,13 +3,13 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    color: #d92e2e;
-    background: linear-gradient(to right, #bd2828, #d9b42e);
+    color: #0d662c;
+    background: linear-gradient(to right, #0d662c, #489c5d);
 }
 
 /* Header Styles */
 header {
-    background-color: linear-gradient(#bd2828, #d9b42e);
+    background-color: linear-gradient(#0d662c, #489c5d);
     color: #fff;
     text-align: center;
     padding: 20px;
@@ -55,7 +55,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #d92e2e;  /* Darker shade for hover */
+    background-color: #0d662c;  /* Darker shade for hover */
 }
 
 /* Banner Styles */
@@ -138,15 +138,15 @@ main h3 {
 .cta-container {
     text-align: center;
     padding: 20px;
-    background-color: #fca503;
+    background-color: #0d662c;
     margin-top: 30px;
 }
 
 .cta-button {
     display: inline-box;
     padding: 10px 20px;
-    background-color: #fca503;
-    color: #d92e2e;
+    background-color: #0d662c;
+    color: #0d662c;
     text-decoration: hover;
     border-radius: 5px;
     font-weight: bold;
@@ -155,7 +155,7 @@ main h3 {
 }
 
 .cta-button:hover {
-    background-color: #fca503;
+    background-color: #0d662c;
 }
 
 /* Footer Styles */
