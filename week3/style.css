@@ -5,13 +5,13 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
     color: #000000;
-    background: linear-gradient(to right, #bcdce8, #d1edda);
+    background: linear-gradient(to right, #059393, #022c2c);
 }
 
 /* Header Styles */
 header {
-    background: linear-gradient(#63afd0, #ebf8e1);
-    color: #310202;
+    background: linear-gradient(#059393, #022c2c);
+    color: #050505;
     text-align: center;
     padding: 20px;
     position: sticky;
@@ -147,7 +147,7 @@ main h3 {
 .cta-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #009BFF;
+    background-color: #7e0e0a;
     color: #ffffff;
     text-decoration: none;
     border-radius: 5px;
@@ -157,7 +157,7 @@ main h3 {
 }
 
 .cta-button:hover {
-    background-color: #0056b3;
+    background-color: #7e0e0a;
 }
 
 /* Footer Styles */
