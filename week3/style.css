@@ -1,18 +1,21 @@
 /* Reset Styles */
 body {
+    background: scroll;
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    color: #020202;
-    background: linear-gradient(to right, #138886, #138886);
+    color: #000000;
+    background: linear-gradient(to right, #bcdce8, #d1edda);
 }
 
 /* Header Styles */
 header {
-    background-color: linear-gradient(#138886, #138886);
-    color: #fff;
+    background: linear-gradient(#63afd0, #ebf8e1);
+    color: #310202;
     text-align: center;
     padding: 20px;
+    position: sticky;
+    top: 0; 
 }
 
 .headeraH1 {
@@ -34,7 +37,7 @@ header {
 /* Navigation Styles */
 nav ul {
     background-color: #333;
-    color: #fff;
+    color: #ffffff;
     text-align: center;
     list-style-type: none;
     margin: 0;
@@ -47,7 +50,7 @@ nav li {
 
 nav a {
     display: block;
-    color: #fff;
+    color: #fffcfc;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -55,7 +58,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #138886;  /* Darker shade for hover */
+    background-color: #9d9d9d;  /* Darker shade for hover */
 }
 
 /* Banner Styles */
@@ -84,7 +87,6 @@ main {
 .services {
     margin: 2rem auto;
     padding: 2rem;
-    background-color: #fff;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
@@ -101,8 +103,8 @@ main h3 {
 }
 
 .service-column {
-    flex-basis: calc(50% - 25px);
-    max-width: calc(50% - 25px);
+    flex-basis: calc(50% - 20px);
+    max-width: calc(50% - 20px);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -110,7 +112,7 @@ main h3 {
 }
 
 .service-column img {
-    width: 180px;
+    width: 250px;
     height: auto;
     margin-bottom: 10px;
 }
@@ -122,8 +124,8 @@ main h3 {
 /* Media Queries for Responsiveness */
 @media (max-width: 800px) {
     .service-column {
-        flex-basis: calc(40% - 20px);
-        max-width: calc(40% - 20px);
+        flex-basis: calc(50% - 20px);
+        max-width: calc(50% - 20px);
     }
 }
 
@@ -138,16 +140,16 @@ main h3 {
 .cta-container {
     text-align: center;
     padding: 20px;
-    background-color: #333;
+    background-color: #fbfcfd;
     margin-top: 30px;
 }
 
 .cta-button {
-    display: inline-box;
+    display: inline-block;
     padding: 10px 20px;
-    background-color: #ad0707;
-    color: #020202;
-    text-decoration: hover;
+    background-color: #009BFF;
+    color: #ffffff;
+    text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
     margin-top: 15px;
@@ -155,13 +157,13 @@ main h3 {
 }
 
 .cta-button:hover {
-    background-color: #fff;
+    background-color: #0056b3;
 }
 
 /* Footer Styles */
 footer {
     background-color: #333;
-    color: #fff;
+    color: #e3e3e3;
     text-align: center;
     padding: 20px;
 }
@@ -177,12 +179,12 @@ footer li {
 
 footer a {
     color: #fff;
-    text-decoration: smooth;
+    text-decoration: none;
     transition: color 0.3s;  /* Smooth transition for hover effect */
 }
 
 footer a:hover {
-    color: #b3b3b3;  /* Lighter color on hover */
+    color: #ffffff;  /* Lighter color on hover */
 }
 
 footer p {
