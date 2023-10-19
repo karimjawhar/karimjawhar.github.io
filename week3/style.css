@@ -5,12 +5,12 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
     color: #000000;
-    background: linear-gradient(to right, #08bdbd, #89ecec);
+    background: linear-gradient(to right, #069381, #7bc0b4);
 }
 
 /* Header Styles */
 header {
-    background: linear-gradient(#08bdbd, #89ecec);
+    background: linear-gradient(#069381, #7bc0b4);
     color: #050505;
     text-align: center;
     padding: 20px;
