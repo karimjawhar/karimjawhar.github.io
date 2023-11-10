@@ -3,7 +3,7 @@ var btn = document.getElementById("btn");
 btn.addEventListener("click", function(){
 
   var ourRequest = new XMLHttpRequest();
-  ourRequest.open('GET', 'https://karimjawhar.github.io/cities1.json');
+  ourRequest.open('GET', 'https://karimjawhar.github.io/week4/cities1.json');
   ourRequest.onload = function() {
     var ourData = JSON.parse(ourRequest.responseText);
    renderHTML(ourData);
